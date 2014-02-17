@@ -33,8 +33,8 @@ public class BillingServer implements Serializable {
 	static final String DB_URL = "jdbc:mysql://localhost/solar_billing";
 
 	// Database credentials
-	static final String USER = "diamondtrust66";
-	static final String PASS = "73andromeda73";
+	static final String USER = "db_username";_ //Change this to your database credentials
+	static final String PASS = "db_password"; //Change this to your database credentials
 
 	@SuppressWarnings("rawtypes")
 	ArrayList clientOutputStreams;
